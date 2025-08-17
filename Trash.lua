@@ -3,12 +3,14 @@ local placeId = game.PlaceId
 local AnimeFruit = {123748395762873, 139511259501829, 108024361207755, 80475958139979}
 local BasketBallLegends = {14386691987, 14259168147}
 local TaxiBoss = {7305309231}
+local Night = {79546208627805, 126509999114328}
 
 local QuantumValidator = {
     Systems = {
         {Name = "AnimeFruit", Nodes = AnimeFruit, Payload = "https://raw.githubusercontent.com/moyx-labs/FruitRe/refs/heads/main/dbd.lua"},
         {Name = "BasketBallLegends", Nodes = BasketBallLegends, Payload = "https://raw.githubusercontent.com/moyx-labs/BasketBall-LG/refs/heads/main/dbd.lua"},
-        {Name = "TaxiBoss", Nodes = TaxiBoss, Payload = "https://raw.githubusercontent.com/moyx-labs/Taxi-Boss/refs/heads/main/dbd.lua"}
+        {Name = "TaxiBoss", Nodes = TaxiBoss, Payload = "https://raw.githubusercontent.com/moyx-labs/Taxi-Boss/refs/heads/main/dbd.lua"},
+        {Name = "99Night", Nodes = Night, Payload = "https://raw.githubusercontent.com/moyx-labs/99-Night/refs/heads/main/dbd.lua"}        
     },
 
     Engage = function(self, targetId)
